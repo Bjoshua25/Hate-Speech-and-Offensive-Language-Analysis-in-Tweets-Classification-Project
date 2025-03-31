@@ -1,5 +1,7 @@
 # **Hate Speech and Offensive Language Analysis in Tweets | Classification Project**  
 
+![](tweet_cover.webp)
+
 ## **INTRODUCTION**  
 Hate speech and offensive language are widespread issues on social media platforms. This project applies **Natural Language Processing (NLP)** techniques and **Machine Learning classification models** to analyze and classify tweets as **Hate Speech, Offensive Language, or Neutral (Non-Hate Speech).**  
 
@@ -53,12 +55,17 @@ Several **classification models** were trained and evaluated:
 - **Naïve Bayes Classifier**  
 - **Gradient Boosting (XGBoost, LightGBM)**  
 
+**Before Hyperparameter Tuning**        |    **After Hyperparameter Tuning**
+|:--------------------------------------:|:----------------------------------:|
+![](untuned_models.png)                 |  ![](tuned_models.png)
 ---
 
 ## **MODEL EVALUATION METRICS**  
 - **Accuracy Score**  
 - **Precision, Recall, and F1-score**  
 - **Confusion Matrix to visualize classification performance**  
+
+![](confusion_matrix.png)
 
 ---
 
